@@ -1,0 +1,1 @@
+# simple_qr_code_rails
