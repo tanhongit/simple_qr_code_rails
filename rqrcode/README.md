@@ -1,6 +1,6 @@
 # Welcome to "qr code generator rails" by TANHONGIT
 
-Create qr code using rqrcode-with-patches gem with Ruby on Rails.
+Create qr code using barby & rqrcode gem with Ruby on Rails.
 
 
 # 1. Technology
