@@ -82,6 +82,17 @@ $ rails db:migrate RAILS_ENV=development
 ```
 $ rails s
 ```
+You can see information capacity and version of QR Code at https://www.qrcode.com/en/about/version.html
+
+So you can change version at _**"rqrcode-with-patches/app/controllers/qr_codes_controller.rb"**_
+
+```ruby
+  def create
+    @qr = RQRCode::QRCode.new(qr_code_params[:text], size: 10)
+  end
+```
+
+*Max size: 40.
 
 ## Support for me
 Support this project :stuck_out_tongue_winking_eye: :pray:
