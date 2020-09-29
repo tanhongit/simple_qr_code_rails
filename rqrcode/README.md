@@ -2,6 +2,9 @@
 
 Create qr code using barby & rqrcode gem with Ruby on Rails.
 
+# Demo
+
+You can see a real-life example applied this gem here: https://github.com/TanHongIT/Rails_Shortener_URL_Project
 
 # 1. Technology
 - Ruby on Rails
